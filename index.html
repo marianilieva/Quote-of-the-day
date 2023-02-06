@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>h9e6</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+    <h1>Quotes for Success</h1>
+    <div class="filters">
+        <div>
+            <h2>Length of quote</h2>
+            <input type="checkbox" id="to40" name="length">
+            <label for="to40">Up to 40 symbols</label><br>
+            <input type="checkbox" id="f40to60" name="length">
+            <label for="f40to60">From 40 to 60 symbols</label><br>
+            <input type="checkbox" id="over60" name="length">
+            <label for="over60">More than 60 symbols</label>
+        </div>
+        <div>
+            <h2>Name of Author</h2>
+            <input type="text" name="name" id="name"
+                placeholder="Please, enter the first letter of the first name!"
+            >
+        </div>
+        <button id="show">Show</button>
+    </div>
+    <div id="container"></div>
+    <div class="luck">
+        <h2 id="lucky">Try your luck!</h2>
+        <button id="luck">Your quote</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
